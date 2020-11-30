@@ -63,13 +63,13 @@ body {
 
 .masthead-brand {
     margin-bottom: 0;
-    color: black;
+    color: white;
 }
 
 .nav-masthead .nav-link {
     padding: 0.25rem 0;
     font-weight: 700;
-    color: #f73f2c;
+    color: white;
     background-color: transparent;
     border-bottom: 0.25rem solid transparent;
 }

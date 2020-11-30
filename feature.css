@@ -3,22 +3,22 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color: #5a5a5a;
-    background: #fdfdfd;
-}
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 .nav-link {
     padding: 0.25rem 0;
     font-weight: 700;
-    color: #f73f2c;
+    color: black;
     background-color: transparent;
     border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: black;
+    background: brown;
+    border-bottom-color: white;
 }
 
 /* services */

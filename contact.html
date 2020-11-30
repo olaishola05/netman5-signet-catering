@@ -24,28 +24,49 @@
                 width: 100%;
                 position: absolute;
             }
+
+            .contact {
+                background-color: rgb(45, 69, 77);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                position: relative;
+                color: white;
+            }
         </style>
     </head>
     <body>
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <nav class="nav nav-masthead">
+                    <a class="nav-link active" href="/index.html"
+                        >Home</a
+                    >
+                    <a class="nav-link" href="/features.html"
+                        >Features</a
+                    >
+
+                    <a class="nav-link" href="/about.html"
+                        >About Us</a
+                    >
+                </nav>
+            </div>
+        </header>
         <!-- Section: Contact v.1 -->
-        <section class="container my-5">
+        <section class="container my-3">
             <!-- Section heading -->
-            <h2
-                class="h1-responsive font-weight-bold text-center my-5"
-            >
-                Contact us
-            </h2>
-            <!-- Section description -->
-            <p class="text-center w-responsive mx-auto pb-5">
-                Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Fugit, error amet numquam iure
-                provident voluptate esse quasi, veritatis totam
-                voluptas nostrum quisquam eum porro a pariatur
-                veniam.
-            </p>
+            <div class="jumbotron contact">
+                <h2
+                    class="h1-responsive font-weight-bold text-center my- display-3"
+                >
+                    Contact us
+                </h2>
+            </div>
+
+            <hr />
 
             <!-- Grid row -->
-            <div class="row">
+            <div class="row mt-5">
                 <!-- Grid column -->
                 <div class="col-lg-5 mb-lg-0 mb-4">
                     <!-- Form with header -->
@@ -120,9 +141,7 @@
                                 >
                             </div>
                             <div class="text-center">
-                                <button
-                                    class="btn btn-light-blue"
-                                >
+                                <button class="btn btn-primary">
                                     Submit
                                 </button>
                             </div>
@@ -130,7 +149,6 @@
                     </div>
                     <!-- Form with header -->
                 </div>
-                <!-- Grid column -->
 
                 <!-- Grid column -->
                 <div class="col-lg-7">
@@ -141,7 +159,7 @@
                         style="height: 400px"
                     >
                         <iframe
-                            src="https://maps.google.com/maps?q=Manhatan&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            src="https://maps.google.com/maps?q=Lagos&t=&z=15&ie=UTF8&iwloc=&output=embed"
                             frameborder="0"
                             style="border: 0"
                             allowfullscreen
@@ -157,8 +175,8 @@
                                     class="fas fa-map-marker-alt"
                                 ></i>
                             </a>
-                            <p>New York, 94126</p>
-                            <p class="mb-md-0">United States</p>
+                            <p>Lagos</p>
+                            <p class="mb-md-0">Nigeria</p>
                         </div>
                         <div class="col-md-4">
                             <a
@@ -187,5 +205,12 @@
             <!-- Grid row -->
         </section>
         <!-- Section: Contact v.1 -->
+
+        <footer class="container">
+            <p class="float-right">
+                <a href="#">Back to top</a>
+            </p>
+            <p>&copy; 2017-2020 Signet, Inc.</p>
+        </footer>
     </body>
 </html>
