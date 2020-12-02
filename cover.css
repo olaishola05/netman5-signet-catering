@@ -11,7 +11,7 @@ a:hover {
 
 /* Custom default button */
 .btn-secondary {
-    background-color: #f73f2c;
+    background-color: red;
     color: white;
 }
 
