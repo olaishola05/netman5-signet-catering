@@ -14,13 +14,6 @@
     border-bottom: 0.25rem solid transparent;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: black;
-    background: brown;
-    border-bottom-color: white;
-}
-
 /* services */
 .feature-header {
     max-width: 95%;

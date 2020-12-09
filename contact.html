@@ -33,31 +33,77 @@
                 position: relative;
                 color: white;
             }
+
+            @media (min-width: 400px) {
+                .contact {
+                    font-size: 4rem;
+                }
+            }
         </style>
     </head>
     <body>
-        <header class="masthead mb-auto">
-            <div class="inner">
-                <nav class="nav nav-masthead">
-                    <a class="nav-link active" href="/index.html"
-                        >Home</a
-                    >
-                    <a class="nav-link" href="/features.html"
-                        >Features</a
-                    >
+        <nav
+            class="navbar navbar-expand-lg navbar-light bg-light rounded"
+        >
+            <a class="navbar-brand" href="#">Signet</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarsExample09"
+                aria-controls="navbarsExample09"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                    <a class="nav-link" href="/about.html"
-                        >About Us</a
-                    >
-                </nav>
+            <div
+                class="collapse navbar-collapse"
+                id="navbarsExample09"
+            >
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/index.html"
+                            >Home
+                            <span class="sr-only"
+                                >(current)</span
+                            ></a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/features.html"
+                            >Features</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="/about.html"
+                            tabindex="-1"
+                            aria-disabled="true"
+                            >About</a
+                        >
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="/contact.html"
+                            tabindex="-1"
+                            aria-disabled="true"
+                            >Contact Us</a
+                        >
+                    </li>
+                </ul>
             </div>
-        </header>
+        </nav>
         <!-- Section: Contact v.1 -->
-        <section class="container my-3">
+        <section class="container my-3 mt-4">
             <!-- Section heading -->
             <div class="jumbotron contact">
                 <h2
-                    class="h1-responsive font-weight-bold text-center my- display-3"
+                    class="h1-responsive font-weight-bold text-center my display-4 contact"
                 >
                     Contact us
                 </h2>
@@ -195,8 +241,8 @@
                             >
                                 <i class="fas fa-envelope"></i>
                             </a>
-                            <p>info@gmail.com</p>
-                            <p class="mb-0">sale@gmail.com</p>
+                            <p>info@signet.com</p>
+                            <p class="mb-0">sales@signet.com</p>
                         </div>
                     </div>
                 </div>
@@ -210,7 +256,7 @@
             <p class="float-right">
                 <a href="#">Back to top</a>
             </p>
-            <p>&copy; 2017-2020 Signet, Inc.</p>
+            <p>&copy; 2020 Signet, Inc.</p>
         </footer>
     </body>
 </html>

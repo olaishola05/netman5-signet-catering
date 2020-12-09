@@ -21,57 +21,64 @@
         <link href="/feature.css" rel="stylesheet" />
     </head>
     <body>
-        <header>
-            <nav class="nav navbar navbar-expand-md">
-                <!-- <a class="navbar-brand" href="/index.html"
-                    >Cover</a
-                > -->
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarCollapse"
-                    aria-controls="navbarCollapse"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div
-                    class="collapse navbar-collapse"
-                    id="navbarCollapse"
-                >
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a
-                                class="nav-link"
-                                href="/index.html"
-                                >Home
-                                <span class="sr-only"
-                                    >(current)</span
-                                ></a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a
-                                class="nav-link"
-                                href="/about.html"
-                                >About Us</a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a
-                                class="nav-link"
-                                href="/contact.html"
-                                >Contact</a
-                            >
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+        <nav
+            class="navbar navbar-expand-lg navbar-light bg-light rounded"
+        >
+            <a class="navbar-brand" href="#">Signet</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarsExample09"
+                aria-controls="navbarsExample09"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <main role="main">
+            <div
+                class="collapse navbar-collapse"
+                id="navbarsExample09"
+            >
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/index.html"
+                            >Home
+                            <span class="sr-only"
+                                >(current)</span
+                            ></a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/features.html"
+                            >Features</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="/about.html"
+                            tabindex="-1"
+                            aria-disabled="true"
+                            >About</a
+                        >
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="/contact.html"
+                            tabindex="-1"
+                            aria-disabled="true"
+                            >Contact Us</a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="mt-4" role="main">
             <div
                 class="feature-header container px-3 py-3 pt-md-5 pb-md-4 text-center"
             >
@@ -80,11 +87,9 @@
                         Services
                     </h1>
                     <p class="lead">
-                        Quickly build an effective pricing table
-                        for your potential customers with this
-                        Bootstrap example. It’s built with
-                        default Bootstrap components and
-                        utilities with little customization.
+                        Our catering services are perfect for any
+                        size, any style, and are customized to
+                        your budget.
                     </p>
                 </div>
             </div>
@@ -106,9 +111,8 @@
                             height="140"
                             src="./img/chefs.webp"
                             alt="chef logo"
-                        >
+                        />
 
-                        </img>
                         <h2>Catering</h2>
                         <p>
                             Donec sed odio dui. Etiam porta sem
@@ -135,11 +139,9 @@
                             width="140"
                             height="140"
                             src="./img/calendars.webp"
-                            
                             alt="calendar"
-                        >
-            
-                        </img>
+                        />
+
                         <h2>Event Planning</h2>
                         <p>
                             Duis mollis, est non commodo luctus,
@@ -165,10 +167,10 @@
                             class="bd-placeholder-img rounded-circle"
                             width="140"
                             height="140"
-                           src="/img/master.jpg"
-                           alt="academy logo"
-                        >
-                        </img>
+                            src="/img/master.jpg"
+                            alt="academy logo"
+                        />
+
                         <h2>Catering Academy</h2>
                         <p>
                             Donec sed odio dui. Cras justo odio,
@@ -205,12 +207,24 @@
                             >
                         </h2>
                         <p class="lead">
-                            Donec ullamcorper nulla non metus
-                            auctor fringilla. Vestibulum id
-                            ligula porta felis euismod semper.
-                            Praesent commodo cursus magna, vel
-                            scelerisque nisl consectetur. Fusce
-                            dapibus, tellus ac cursus commodo.
+                            Our catering services are perfect for
+                            any size, any style, and are
+                            customized to your budget. Wedding We
+                            created two wedding packages to make
+                            planning your wedding easier than
+                            ever. We guide you through curating
+                            the perfect menu for you and your
+                            guests. Corporate Our corporate lunch
+                            catering package is an easy drop-off
+                            or pick-up service. Simply contact us
+                            and like magic, large trays of
+                            restaurant-quality food will come to
+                            you. Social From birthday or
+                            anniversary parties to non-profit
+                            fundraisers and more, our social
+                            catering menu will have you breaking
+                            bread with your closest friends and
+                            community partners.
                         </p>
                     </div>
                     <div class="col-md-5">
@@ -220,8 +234,7 @@
                             height="500"
                             src="./img/chops.jpeg"
                             alt="small chops"
-                        >
-                        </img>
+                        />
                     </div>
                 </div>
 
@@ -254,8 +267,7 @@
                             focusable="false"
                             role="img"
                             aria-label="Placeholder: 500x500"
-                        >
-                        </img>
+                        />
                     </div>
                 </div>
 
@@ -284,11 +296,8 @@
                             width="500"
                             height="500"
                             src="./img/class.jpg"
-                           
                             alt="Placeholder: 500x500"
-                        >
-                            
-                        </img>
+                        />
                     </div>
                 </div>
 
@@ -304,7 +313,7 @@
                     <a href="#">Back to top</a>
                 </p>
                 <p>
-                    &copy; 2017-2020 Company, Inc. &middot;
+                    &copy; 2020 Signet, Inc. &middot;
                     <a href="#">Privacy</a> &middot;
                     <a href="#">Terms</a>
                 </p>
